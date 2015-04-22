@@ -101,3 +101,5 @@ SET NOCOUNT OFF
 GO
 ```
 
+###Fix Applied
+I've found that creating a merge statement with a table column of type varbinary(max) does not end up well. For now I have no means of testing this script in full, no automated tests are present. 
